@@ -1,14 +1,16 @@
 {
 	"manifest_version": 2,
 	"name": "BostonText",
-	"version": "1.0",
-	"description": "Converts ordinary text to a Boston Accent.",
-	"content_scripts": 
-	[
+	"version": "0.0.1",
+	"description": "Replaces ordinary text with a Boston accent.",
+	"content_scripts": [
 		{
-			"matches": ["http://*/*"],
-			"js": ["bostontext.js"]
-			
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"js": ["bostontext.js"],
+			"run_at": "document_end"
 		}
 	]
 }
