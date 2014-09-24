@@ -38,15 +38,25 @@ function handleText(textNode)
 	var str = textNode.nodeValue;
 
 	// Words
+	str = str.replace(/wicked/gi, "WICKED PISSAH");
 	str = str.replace(/\bare\b/g, "aw");
 	str = str.replace(/\bAre\b/g, "Aw");
 	str = str.replace(/\bARE\b/g, "AW");
-	str = str.replace(/awesome/g, "wicked");
-	str = str.replace(/Awesome/g, "Wicked");
-	str = str.replace(/AWESOME/g, "WICKED PISSAH");
+	str = str.replace(/awesome/gi, "WICKED PISSAH");
 	str = str.replace(/cool/g, "wicked");
 	str = str.replace(/Cool/g, "Wicked");
-	str = str.replace(/COOL/g, "WICKED PISSAH");
+	str = str.replace(/good/g, "wicked");
+	str = str.replace(/Good/g, "Wicked");
+	str = str.replace(/there/g, "theya");
+	str = str.replace(/There/g, "Theya");
+	str = str.replace(/their/g, "theya");
+	str = str.replace(/Their/g, "Theya");
+	str = str.replace(/theyre/g, "theya");
+	str = str.replace(/Theyre/g, "Theya");
+	str = str.replace(/they're/g, "theya");
+	str = str.replace(/They're/g, "Theya");
+	str = str.replace(/where/g, "waya");
+	str = str.replace(/Where/g, "Waya");
 	str = str.replace(/\byour/g, "yah");
 	str = str.replace(/\bYour/g, "Yah");
 	str = str.replace(/\bYOUR/g, "YAH");
@@ -62,6 +72,7 @@ function handleText(textNode)
 	str = str.replace(/air/g, "aya")
 	str = str.replace(/Air/g, "Aya")
 	str = str.replace(/are\b/g, "aya");
+	str = str.replace(/ara/g, "ahra");
 	str = str.replace(/are/g, "ahre");
 	str = str.replace(/ari/g, "ahri");
 	str = str.replace(/aro/g, "ahro");
@@ -73,6 +84,7 @@ function handleText(textNode)
 	str = str.replace(/ers\b/g, "ahs"); 
 	str = str.replace(/er/g, "ah");
 	str = str.replace(/ire\b/g, "iyah");
+	str = str.replace(/ired\b/g, "iyahd");
 	str = str.replace(/ir/g, "ih");
 	str = str.replace(/ory/g, "ary");
 	str = str.replace(/ore\b/g, "oah");
