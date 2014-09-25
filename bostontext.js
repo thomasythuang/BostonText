@@ -38,6 +38,9 @@ function handleText(textNode)
 	var str = textNode.nodeValue;
 
 	// Words
+	str = str.replace(/boston/g, "bahston");
+	str = str.replace(/Boston/g, "Bahston");
+	str = str.replace(/BOSTON/g, "BAHSTON");
 	str = str.replace(/wicked/gi, "WICKED PISSAH");
 	str = str.replace(/\bare\b/g, "aw");
 	str = str.replace(/\bAre\b/g, "Aw");
