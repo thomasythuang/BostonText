@@ -8,3 +8,6 @@ EXAMPLES:
 "Hot Body" -> "Hat Bady"
 "Shark" -> "Shahk"
 ...among many others! Have fun!
+
+Find it here:
+https://chrome.google.com/webstore/detail/bostontext/fagdmfodfbpbdnmafocnjbdjdaeeokkj
